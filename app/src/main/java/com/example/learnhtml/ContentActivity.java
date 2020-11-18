@@ -1,10 +1,13 @@
 package com.example.learnhtml;
 
 import android.os.Bundle;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class ContentActivity extends AppCompatActivity {
+
+    ImageView iv_back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
