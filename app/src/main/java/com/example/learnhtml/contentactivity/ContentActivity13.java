@@ -25,5 +25,6 @@ public class ContentActivity13 extends AppCompatActivity {
                 finish();
             }
         });
+        WebView myWebView = (WebView) findViewById(R.id.webview);
     }
 }

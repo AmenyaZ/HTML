@@ -3,6 +3,7 @@ package com.example.learnhtml.contentactivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -26,5 +27,7 @@ public class ContentActivity1 extends AppCompatActivity {
                 finish();
             }
         });
+
+        WebView myWebView = (WebView) findViewById(R.id.webview);
     }
 }
