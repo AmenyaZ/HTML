@@ -1,0 +1,61 @@
+<h1>HTML&nbsp;<span class="color_h1">Responsive Web Design</span></h1>
+<p class="intro">Responsive web design is about creating web pages that look good on all devices!</p>
+<p class="intro">A responsive web design will automatically adjust for different screen sizes and viewports.</p>
+<h2>What is Responsive Web Design?</h2>
+<p>Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it look good on all devices (desktops, tablets, and phones):</p>
+<h2>Setting The Viewport</h2>
+<p>To create a responsive website, add the following&nbsp;<code class="w3-codespan">&lt;<span style="color: #800000;">meta</span>&gt;</code>&nbsp;tag to all your web pages:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh"><span class="tagnamecolor"><span class="tagcolor">&lt;</span><span style="color: #800000;">meta</span><span class="attributecolor"><span style="color: #800000;">&nbsp;name</span><span class="attributevaluecolor">=<span style="color: #0000ff;">"viewport"</span></span>&nbsp;<span style="color: #800000;">content</span><span class="attributevaluecolor">=<span style="color: #0000ff;">"width=device-width, initial-scale=1.0"</span></span></span><span class="tagcolor">&gt;</span></span></div>
+<div class="w3-code notranslate htmlHigh">&nbsp;</div>
+<div class="w3-code notranslate htmlHigh"><span class="tagnamecolor"><span class="tagcolor">This will set the viewport of your page, which will give the browser instructions on how to control the page's dimensions and scaling.</span></span></div>
+<div class="w3-code notranslate htmlHigh">&nbsp;</div>
+<div class="w3-code notranslate htmlHigh"><span class="tagnamecolor"><span class="tagcolor"><strong>Tip:</strong>&nbsp;If you are browsing this page on a phone or a tablet, you can click on the two links above to see the difference.</span></span></div>
+<div class="w3-code notranslate htmlHigh">
+<h2>Responsive Images</h2>
+<p>Responsive images are images that scale nicely to fit any browser size.</p>
+<h3>Show Different Images Depending on Browser Width</h3>
+<p>The HTML&nbsp;<code class="w3-codespan">&lt;picture&gt;</code>&nbsp;element allows you to define different images for different browser window sizes.</p>
+<p>Resize the browser window to see how the image below change depending on the width:</p>
+<p>&nbsp;</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh"><span class="tagnamecolor" style="color: brown;"><span class="tagcolor" style="color: mediumblue;">&lt;</span>picture<span class="tagcolor" style="color: mediumblue;">&gt;</span></span><br />&nbsp; <span class="tagnamecolor" style="color: brown;"><span class="tagcolor" style="color: mediumblue;">&lt;</span>source<span class="attributecolor" style="color: red;"> srcset<span class="attributevaluecolor" style="color: mediumblue;">="img_smallflower.jpg"</span> media<span class="attributevaluecolor" style="color: mediumblue;">="(max-width: 600px)"</span></span><span class="tagcolor" style="color: mediumblue;">&gt;</span></span><br />&nbsp; <span class="tagnamecolor" style="color: brown;"><span class="tagcolor" style="color: mediumblue;">&lt;</span>source<span class="attributecolor" style="color: red;"> srcset<span class="attributevaluecolor" style="color: mediumblue;">="img_flowers.jpg"</span> media<span class="attributevaluecolor" style="color: mediumblue;">="(max-width: 1500px)"</span></span><span class="tagcolor" style="color: mediumblue;">&gt;</span></span><br />&nbsp; <span class="tagnamecolor" style="color: brown;"><span class="tagcolor" style="color: mediumblue;">&lt;</span>source<span class="attributecolor" style="color: red;"> srcset<span class="attributevaluecolor" style="color: mediumblue;">="flowers.jpg"</span></span><span class="tagcolor" style="color: mediumblue;">&gt;</span></span><br />&nbsp; <span class="tagnamecolor" style="color: brown;"><span class="tagcolor" style="color: mediumblue;">&lt;</span>img<span class="attributecolor" style="color: red;"> src<span class="attributevaluecolor" style="color: mediumblue;">="img_smallflower.jpg"</span> alt<span class="attributevaluecolor" style="color: mediumblue;">="Flowers"</span></span><span class="tagcolor" style="color: mediumblue;">&gt;</span></span><br /><span class="tagnamecolor" style="color: brown;"><span class="tagcolor" style="color: mediumblue;">&lt;</span>/picture<span class="tagcolor" style="color: mediumblue;">&gt;</span></span></div>
+<div class="w3-code notranslate htmlHigh">&nbsp;</div>
+<div class="w3-code notranslate htmlHigh">
+<h2>Responsive Text Size</h2>
+<p>The text size can be set with a "vw" unit, which means the "viewport width".</p>
+<p>That way the text size will follow the size of the browser window:</p>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh"><span class="tagnamecolor" style="color: brown;"><span class="tagcolor" style="color: mediumblue;">&lt;</span>h1<span class="attributecolor" style="color: red;"> style<span class="attributevaluecolor" style="color: mediumblue;">="<strong>font-size:10vw</strong>"</span></span><span class="tagcolor" style="color: mediumblue;">&gt;</span></span>Hello World<span class="tagnamecolor" style="color: brown;"><span class="tagcolor" style="color: mediumblue;">&lt;</span>/h1<span class="tagcolor" style="color: mediumblue;">&gt;</span></span></div>
+<div class="w3-code notranslate htmlHigh">
+<h2>Media Queries</h2>
+<p>In addition to resize text and images, it is also common to use media queries in responsive web pages.</p>
+<p>With media queries you can define completely different styles for different browser sizes.</p>
+<p>Example: resize the browser window to see that the three div elements below will display horizontally on large screens and stacked vertically on small screens:</p>
+<p>&nbsp;</p>
+<div class="w3-row">
+<div class="menu">
+<div class="w3-blue w3-padding">Left Menu<br /><br /><br /></div>
+</div>
+<div class="main">
+<div class="w3-light-gray w3-padding">Main Content<br /><br /><br /></div>
+</div>
+<div class="right">
+<div class="w3-green w3-padding">Right Content<br /><br /></div>
+<div class="w3-green w3-padding">&nbsp;</div>
+<div class="w3-green w3-padding">&nbsp;</div>
+</div>
+</div>
+<div class="w3-example">
+<h3>Example</h3>
+<div class="w3-code notranslate htmlHigh"><span class="tagnamecolor" style="color: brown;"><span class="tagcolor" style="color: mediumblue;">&lt;</span>style<span class="tagcolor" style="color: mediumblue;">&gt;</span></span><span class="cssselectorcolor" style="color: brown;"><br />.left, .right <span class="cssdelimitercolor" style="color: black;">{</span><span class="csspropertycolor" style="color: red;"><br />&nbsp; float<span class="csspropertyvaluecolor" style="color: mediumblue;"><span class="cssdelimitercolor" style="color: black;">:</span> left<span class="cssdelimitercolor" style="color: black;">;</span></span><br />&nbsp; width<span class="csspropertyvaluecolor" style="color: mediumblue;"><span class="cssdelimitercolor" style="color: black;">:</span> 20%<span class="cssdelimitercolor" style="color: black;">;</span></span> <span class="commentcolor" style="color: green;">/* The width is 20%, by default */</span><br /></span><span class="cssdelimitercolor" style="color: black;">}</span><br /><br />.main <span class="cssdelimitercolor" style="color: black;">{</span><span class="csspropertycolor" style="color: red;"><br />&nbsp; float<span class="csspropertyvaluecolor" style="color: mediumblue;"><span class="cssdelimitercolor" style="color: black;">:</span> left<span class="cssdelimitercolor" style="color: black;">;</span></span><br />&nbsp; width<span class="csspropertyvaluecolor" style="color: mediumblue;"><span class="cssdelimitercolor" style="color: black;">:</span> 60%<span class="cssdelimitercolor" style="color: black;">;</span></span> <span class="commentcolor" style="color: green;">/* The width is 60%, by default */</span><br /></span><span class="cssdelimitercolor" style="color: black;">}</span><br /><br /><span class="commentcolor" style="color: green;">/* Use a media query to add a breakpoint at 800px: */</span><br />@media screen and (max-width: 800px) <span class="cssdelimitercolor" style="color: black;">{</span><span class="cssselectorcolor" style="color: brown;"><br />&nbsp; .left, .main, .right <span class="cssdelimitercolor" style="color: black;"><span class="cssdelimitercolor" style="color: black;">{</span></span><span class="csspropertycolor" style="color: red;"><br />&nbsp;&nbsp;&nbsp; width<span class="csspropertyvaluecolor" style="color: mediumblue;"><span class="cssdelimitercolor" style="color: black;">:</span> 100%<span class="cssdelimitercolor" style="color: black;">;</span></span> <span class="commentcolor" style="color: green;">/* The width is 100%, when the viewport is 800px or smaller */</span><br />&nbsp; </span><span class="cssdelimitercolor" style="color: black;"><span class="cssdelimitercolor" style="color: black;">}</span></span><br /></span><span class="cssdelimitercolor" style="color: black;">}</span><br /></span><span class="tagnamecolor" style="color: brown;"><span class="tagcolor" style="color: mediumblue;">&lt;</span>/style<span class="tagcolor" style="color: mediumblue;">&gt;</span></span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
