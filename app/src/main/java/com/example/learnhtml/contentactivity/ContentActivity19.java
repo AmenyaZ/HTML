@@ -1,4 +1,4 @@
-package com.example.learnhtml;
+package com.example.learnhtml.contentactivity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,12 +7,14 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ContentActivity21 extends AppCompatActivity {
+import com.example.learnhtml.R;
+
+public class ContentActivity19 extends AppCompatActivity {
     ImageView iv_back;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_content21);
+        setContentView(R.layout.activity_content19);
         iv_back= findViewById(R.id.iv_back);
 
         iv_back.setOnClickListener(new View.OnClickListener() {

@@ -1,4 +1,4 @@
-package com.example.learnhtml;
+package com.example.learnhtml.contentactivity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.learnhtml.R;
 
 public class ContentActivity10 extends AppCompatActivity {
     ImageView iv_back;
