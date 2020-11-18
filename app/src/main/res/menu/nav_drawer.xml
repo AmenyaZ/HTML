@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools">
+
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/menu_home" />
+    <item
+        android:id="@+id/nav_editor"
+        android:icon="@drawable/ic_baseline_code_24"
+        android:title="Code Playground/Editor" />
+    <item
+        android:id="@+id/nav_quiz"
+        android:icon="@drawable/ic_baseline_create_24"
+        android:title="Quiz/Learning Progress" />
+</group>
+
+<item
+
+    android:title="HTML Lessons">
+    <menu>
+        <item
+            android:id="@+id/nav_Introduction"
+            android:title="HTML Introduction" />
+        <item
+            android:id="@+id/nav_Editors"
+            android:title="HTML Editors" />
+        <item
+            android:id="@+id/nav_Elements"
+            android:title="HTML Elements" />
+        <item
+            android:id="@+id/nav_Attributes"
+            android:title="HTML Attributes" />
+        <item
+            android:id="@+id/nav_Comments"
+            android:title="HTML Comments" />
+        <item
+            android:id="@+id/nav_Styles"
+            android:title="HTML Styles" />
+        <item
+            android:id="@+id/nav_Colors"
+            android:title="HTML Colors" />
+        <item
+            android:id="@+id/nav_Responsive"
+            android:title="HTML Responsive" />
+        <item
+            android:id="@+id/nav_centered"
+            android:title="HTML Centered" />
+        <item
+            android:id="@+id/nav_BasicExample"
+            android:title="HTML Basic Example" />
+        <item
+            android:id="@+id/nav_Headings"
+            android:title="HTML Headings" />
+        <item
+            android:id="@+id/nav_Paragraphs"
+            android:title="HTML Paragraphs" />
+        <item
+            android:id="@+id/nav_Links"
+            android:title="HTML Links" />
+        <item
+            android:id="@+id/nav_LineBreak"
+            android:title="HTML Line Break" />
+        <item
+            android:id="@+id/nav_HorizontalRule"
+            android:title="HTML Horizontal Rule" />
+        <item
+            android:id="@+id/nav_TextFormatting"
+            android:title="HTML Text Formatting" />
+        <item
+            android:id="@+id/nav_BlockLevel"
+            android:title="HTML Block Level and inline Elements" />
+        <item
+            android:id="@+id/nav_Sections"
+            android:title="HTML Sections" />
+        <item
+            android:id="@+id/nav_Images"
+            android:title="HTML Images" />
+        <item
+            android:id="@+id/nav_Tables"
+            android:title="HTML Tables" />
+        <item
+            android:id="@+id/nav_Lists"
+            android:title="HTML Lists" />
+        <item
+            android:id="@+id/nav_DescriptionLists"
+            android:title="HTML Descripion Lists" />
+        <item
+            android:id="@+id/nav_Javascript"
+            android:title="HTML Javascript" />
+        <item
+            android:id="@+id/nav_Forms"
+            android:title="HTML Forms" />
+        <item
+            android:id="@+id/nav_FormLabels"
+            android:title="HTML Form Labels" />
+        <item
+            android:id="@+id/nav_InputTypes"
+            android:title="HTML Input Types" />
+        <item
+            android:id="@+id/nav_TextArea"
+            android:title="HTML Text Area" />
+
+    </menu>
+</item>
+</menu>
