@@ -1,14 +1,16 @@
-package com.example.learnhtml;
+package com.example.learnhtml.contentactivity;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ContentActivity19 extends AppCompatActivity {
+import com.example.learnhtml.R;
+
+public class ContentActivity18 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_content19);
+        setContentView(R.layout.activity_content18);
     }
 }

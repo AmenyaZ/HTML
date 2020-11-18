@@ -1,8 +1,10 @@
-package com.example.learnhtml;
+package com.example.learnhtml.contentactivity;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.learnhtml.R;
 
 public class ContentActivity6 extends AppCompatActivity {
 
