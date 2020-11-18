@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Learn HTML</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="htmleditor">HTMLEditor</string>
+    <string name="html_home">HTML Home</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="code_playground">Code Playground</string>
+    <string name="drawer_open">Open Navigation Panel</string>
+    <string name="drawer_close">Close Navigation Panel</string>
 </resources>
