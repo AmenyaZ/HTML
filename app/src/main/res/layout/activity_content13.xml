@@ -8,15 +8,13 @@
     tools:context=".contentactivity.ContentActivity13">
 
     <ImageView
-        android:id="@+id/iv_back"
+        android:id="@+id/iv_back13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="@dimen/activity_margin_medium"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24" />
     <WebView
-        android:id="@+id/webview"
+        android:id="@+id/webview13"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         />

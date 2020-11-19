@@ -12,14 +12,14 @@ import com.example.learnhtml.MainActivity;
 import com.example.learnhtml.R;
 
 public class ContentActivity2 extends AppCompatActivity {
-    ImageView iv_back;
+    ImageView iv_back2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_content2);
-        iv_back= findViewById(R.id.iv_back);
+        iv_back2= findViewById(R.id.iv_back);
 
-        iv_back.setOnClickListener(new View.OnClickListener() {
+        iv_back2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), MainActivity.class));
