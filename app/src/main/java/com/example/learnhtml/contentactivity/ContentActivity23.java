@@ -28,7 +28,7 @@ public class ContentActivity23 extends AppCompatActivity {
             }
         });
         WebView myWebView = (WebView) findViewById(R.id.webview23);
-        String contentAsset ="file:///android_assets/HTML_Attributes.html";
+        String contentAsset ="file:///android_asset/HTML_Styles.html";
         myWebView.loadUrl(contentAsset);
         myWebView.getSettings().setJavaScriptEnabled(true);
         myWebView.setWebViewClient(new WebViewClient());

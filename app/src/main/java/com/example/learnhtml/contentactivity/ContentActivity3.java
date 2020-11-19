@@ -28,7 +28,7 @@ public class ContentActivity3 extends AppCompatActivity {
             }
         });
         WebView myWebView = (WebView) findViewById(R.id.webview3);
-        String contentAsset ="file:///android_assets/HTML_Attributes.html";
+        String contentAsset ="file:///android_asset/HTML_Centered.html";
         myWebView.loadUrl(contentAsset);
         myWebView.getSettings().setJavaScriptEnabled(true);
         myWebView.setWebViewClient(new WebViewClient());

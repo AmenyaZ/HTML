@@ -30,7 +30,7 @@ public class ContentActivity1 extends AppCompatActivity {
         });
 
         WebView myWebView = (WebView) findViewById(R.id.webview1);
-        String contentAsset ="file:///android_assets/HTML_Attributes.html";
+        String contentAsset ="file:///android_asset/HTML_Basic_Example.html";
         myWebView.loadUrl(contentAsset);
         myWebView.getSettings().setJavaScriptEnabled(true);
         myWebView.setWebViewClient(new WebViewClient());
