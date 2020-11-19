@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -27,5 +28,9 @@ public class ContentActivity17 extends AppCompatActivity {
             }
         });
         WebView myWebView = (WebView) findViewById(R.id.webview17);
+        String contentAsset ="file:///android_assets/HTML_Attributes.html";
+        myWebView.loadUrl(contentAsset);
+        myWebView.getSettings().setJavaScriptEnabled(true);
+        myWebView.setWebViewClient(new WebViewClient());
     }
 }
