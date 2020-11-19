@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.learnhtml.MainActivity;
 import com.example.learnhtml.R;
 
-public class ContentActivity7 extends AppCompatActivity {
+public class  ContentActivity7 extends AppCompatActivity {
     ImageView iv_back;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

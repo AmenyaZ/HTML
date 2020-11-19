@@ -17,7 +17,7 @@ public class ContentActivity3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_content3);
-        iv_back= findViewById(R.id.iv_back);
+        iv_back= findViewById(R.id.iv_back3);
 
         iv_back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,6 +26,6 @@ public class ContentActivity3 extends AppCompatActivity {
                 finish();
             }
         });
-        WebView myWebView = (WebView) findViewById(R.id.webview);
+        WebView myWebView = (WebView) findViewById(R.id.webview3);
     }
 }
