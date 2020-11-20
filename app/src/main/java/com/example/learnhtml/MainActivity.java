@@ -15,6 +15,7 @@ import android.view.MenuItem;
 import com.example.learnhtml.contentactivity.ContentActivity;
 import com.example.learnhtml.contentactivity.ContentActivity1;
 import com.example.learnhtml.contentactivity.ContentActivity10;
+import com.example.learnhtml.contentactivity.ContentActivity11;
 import com.example.learnhtml.contentactivity.ContentActivity2;
 import com.example.learnhtml.contentactivity.ContentActivity3;
 import com.example.learnhtml.contentactivity.ContentActivity4;
@@ -119,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
                 finish();
                 break;
             case R.id.nav_Paragraphs:
-                startActivity(new Intent(getApplicationContext(),ContentActivity11.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity11.class));
                 finish();
                 break;
             case R.id.nav_Links:
