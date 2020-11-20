@@ -16,6 +16,7 @@ import com.example.learnhtml.contentactivity.ContentActivity;
 import com.example.learnhtml.contentactivity.ContentActivity1;
 import com.example.learnhtml.contentactivity.ContentActivity2;
 import com.example.learnhtml.contentactivity.ContentActivity3;
+import com.example.learnhtml.contentactivity.ContentActivity4;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity {
@@ -84,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
                 finish();
                 break;
             case R.id.nav_Comments:
-                startActivity(new Intent(getApplicationContext(),ContentActivity4.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity4.class));
                 finish();
                 break;
             case R.id.nav_Styles:
