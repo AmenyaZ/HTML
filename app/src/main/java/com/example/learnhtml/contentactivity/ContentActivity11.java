@@ -3,6 +3,8 @@ package com.example.learnhtml.contentactivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,7 +18,7 @@ public class ContentActivity11 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_content11);
-        iv_back= findViewById(R.id.iv_back);
+        iv_back= findViewById(R.id.iv_back11);
 
         iv_back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -25,5 +27,10 @@ public class ContentActivity11 extends AppCompatActivity {
                 finish();
             }
         });
+        WebView myWebView = (WebView) findViewById(R.id.webview11);
+        String contentAsset ="file:///android_asset/HTML_Headings.html";
+        myWebView.loadUrl(contentAsset);
+        myWebView.getSettings().setJavaScriptEnabled(true);
+        myWebView.setWebViewClient(new WebViewClient());
     }
 }
