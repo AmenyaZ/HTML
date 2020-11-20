@@ -16,7 +16,7 @@ public class ContentActivity29 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_content29);
-        iv_back= findViewById(R.id.iv_back);
+        iv_back= findViewById(R.id.iv_back29);
 
         iv_back.setOnClickListener(new View.OnClickListener() {
             @Override

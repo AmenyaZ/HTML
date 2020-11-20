@@ -12,6 +12,33 @@ import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.example.learnhtml.contentactivity.ContentActivity;
+import com.example.learnhtml.contentactivity.ContentActivity1;
+import com.example.learnhtml.contentactivity.ContentActivity10;
+import com.example.learnhtml.contentactivity.ContentActivity11;
+import com.example.learnhtml.contentactivity.ContentActivity12;
+import com.example.learnhtml.contentactivity.ContentActivity13;
+import com.example.learnhtml.contentactivity.ContentActivity14;
+import com.example.learnhtml.contentactivity.ContentActivity15;
+import com.example.learnhtml.contentactivity.ContentActivity16;
+import com.example.learnhtml.contentactivity.ContentActivity17;
+import com.example.learnhtml.contentactivity.ContentActivity18;
+import com.example.learnhtml.contentactivity.ContentActivity19;
+import com.example.learnhtml.contentactivity.ContentActivity2;
+import com.example.learnhtml.contentactivity.ContentActivity20;
+import com.example.learnhtml.contentactivity.ContentActivity21;
+import com.example.learnhtml.contentactivity.ContentActivity22;
+import com.example.learnhtml.contentactivity.ContentActivity23;
+import com.example.learnhtml.contentactivity.ContentActivity24;
+import com.example.learnhtml.contentactivity.ContentActivity25;
+import com.example.learnhtml.contentactivity.ContentActivity26;
+import com.example.learnhtml.contentactivity.ContentActivity3;
+import com.example.learnhtml.contentactivity.ContentActivity4;
+import com.example.learnhtml.contentactivity.ContentActivity5;
+import com.example.learnhtml.contentactivity.ContentActivity6;
+import com.example.learnhtml.contentactivity.ContentActivity7;
+import com.example.learnhtml.contentactivity.ContentActivity8;
+import com.example.learnhtml.contentactivity.ContentActivity9;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity {
@@ -64,111 +91,111 @@ public class MainActivity extends AppCompatActivity {
                 finish();
                 break;
             case R.id.nav_Introduction:
-                startActivity(new Intent(getApplicationContext(),ContentActivity.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity.class));
                 finish();
                 break;
             case R.id.nav_Editors:
-                startActivity(new Intent(getApplicationContext(),ContentActivity1.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity1.class));
                 finish();
                 break;
             case R.id.nav_Elements:
-                startActivity(new Intent(getApplicationContext(),ContentActivity2.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity2.class));
                 finish();
                 break;
             case R.id.nav_Attributes:
-                startActivity(new Intent(getApplicationContext(),ContentActivity3.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity3.class));
                 finish();
                 break;
             case R.id.nav_Comments:
-                startActivity(new Intent(getApplicationContext(),ContentActivity4.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity4.class));
                 finish();
                 break;
             case R.id.nav_Styles:
-                startActivity(new Intent(getApplicationContext(),ContentActivity5.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity5.class));
                 finish();
                 break;
             case R.id.nav_Colors:
-                startActivity(new Intent(getApplicationContext(),ContentActivity6.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity6.class));
                 finish();
                 break;
             case R.id.nav_Responsive:
-                startActivity(new Intent(getApplicationContext(),ContentActivity7.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity7.class));
                 finish();
                 break;
             case R.id.nav_centered:
-                startActivity(new Intent(getApplicationContext(),ContentActivity8.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity8.class));
                 finish();
                 break;
             case R.id.nav_BasicExample:
-                startActivity(new Intent(getApplicationContext(),ContentActivity9.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity9.class));
                 finish();
                 break;
             case R.id.nav_Headings:
-                startActivity(new Intent(getApplicationContext(),ContentActivity10.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity10.class));
                 finish();
                 break;
             case R.id.nav_Paragraphs:
-                startActivity(new Intent(getApplicationContext(),ContentActivity11.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity11.class));
                 finish();
                 break;
             case R.id.nav_Links:
-                startActivity(new Intent(getApplicationContext(),ContentActivity12.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity12.class));
                 finish();
                 break;
             case R.id.nav_LineBreak:
-                startActivity(new Intent(getApplicationContext(),ContentActivity13.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity13.class));
                 finish();
                 break;
             case R.id.nav_HorizontalRule:
-                startActivity(new Intent(getApplicationContext(),ContentActivity14.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity14.class));
                 finish();
                 break;
             case R.id.nav_TextFormatting:
-                startActivity(new Intent(getApplicationContext(),ContentActivity15.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity15.class));
                 finish();
                 break;
             case R.id.nav_BlockLevel:
-                startActivity(new Intent(getApplicationContext(),ContentActivity16.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity16.class));
                 finish();
                 break;
             case R.id.nav_Sections:
-                startActivity(new Intent(getApplicationContext(),ContentActivity17.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity17.class));
                 finish();
                 break;
             case R.id.nav_Images:
-                startActivity(new Intent(getApplicationContext(),ContentActivity18.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity18.class));
                 finish();
                 break;
             case R.id.nav_Tables:
-                startActivity(new Intent(getApplicationContext(),ContentActivity19.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity19.class));
                 finish();
                 break;
             case R.id.nav_Lists:
-                startActivity(new Intent(getApplicationContext(),ContentActivity20.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity20.class));
                 finish();
                 break;
             case R.id.nav_DescriptionLists:
-                startActivity(new Intent(getApplicationContext(),ContentActivity21.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity21.class));
                 finish();
                 break;
             case R.id.nav_Javascript:
-                startActivity(new Intent(getApplicationContext(),ContentActivity22.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity22.class));
                 finish();
                 break;
             case R.id.nav_Forms:
-                startActivity(new Intent(getApplicationContext(),ContentActivity23.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity23.class));
                 finish();
                 break;
             case R.id.nav_FormLabels:
-                startActivity(new Intent(getApplicationContext(),ContentActivity24.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity24.class));
                 finish();
                 break;
             case R.id.nav_InputTypes:
-                startActivity(new Intent(getApplicationContext(),ContentActivity25.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity25.class));
                 finish();
                 break;
             case R.id.nav_TextArea:
-                startActivity(new Intent(getApplicationContext(),ContentActivity26.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity26.class));
                 finish();
                 break;
             default:

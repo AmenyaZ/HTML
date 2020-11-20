@@ -3,6 +3,8 @@ package com.example.learnhtml;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.learnhtml.MainActivity;
 import com.example.learnhtml.R;
 
-public class ContentActivity7 extends AppCompatActivity {
+public class  ContentActivity7 extends AppCompatActivity {
     ImageView iv_back;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,5 +27,10 @@ public class ContentActivity7 extends AppCompatActivity {
                 finish();
             }
         });
+        WebView myWebView = (WebView) findViewById(R.id.webview);
+        String contentAsset ="file:///android_asset/HTML_Editors.html";
+        myWebView.loadUrl(contentAsset);
+        myWebView.getSettings().setJavaScriptEnabled(true);
+        myWebView.setWebViewClient(new WebViewClient());
     }
 }
