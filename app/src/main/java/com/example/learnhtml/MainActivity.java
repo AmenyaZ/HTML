@@ -31,6 +31,7 @@ import com.example.learnhtml.contentactivity.ContentActivity22;
 import com.example.learnhtml.contentactivity.ContentActivity23;
 import com.example.learnhtml.contentactivity.ContentActivity24;
 import com.example.learnhtml.contentactivity.ContentActivity25;
+import com.example.learnhtml.contentactivity.ContentActivity26;
 import com.example.learnhtml.contentactivity.ContentActivity3;
 import com.example.learnhtml.contentactivity.ContentActivity4;
 import com.example.learnhtml.contentactivity.ContentActivity5;
@@ -194,7 +195,7 @@ public class MainActivity extends AppCompatActivity {
                 finish();
                 break;
             case R.id.nav_TextArea:
-                startActivity(new Intent(getApplicationContext(),ContentActivity26.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity26.class));
                 finish();
                 break;
             default:
