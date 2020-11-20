@@ -14,6 +14,7 @@ import android.view.MenuItem;
 
 import com.example.learnhtml.contentactivity.ContentActivity;
 import com.example.learnhtml.contentactivity.ContentActivity1;
+import com.example.learnhtml.contentactivity.ContentActivity10;
 import com.example.learnhtml.contentactivity.ContentActivity2;
 import com.example.learnhtml.contentactivity.ContentActivity3;
 import com.example.learnhtml.contentactivity.ContentActivity4;
@@ -21,6 +22,7 @@ import com.example.learnhtml.contentactivity.ContentActivity5;
 import com.example.learnhtml.contentactivity.ContentActivity6;
 import com.example.learnhtml.contentactivity.ContentActivity7;
 import com.example.learnhtml.contentactivity.ContentActivity8;
+import com.example.learnhtml.contentactivity.ContentActivity9;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity {
@@ -109,11 +111,11 @@ public class MainActivity extends AppCompatActivity {
                 finish();
                 break;
             case R.id.nav_BasicExample:
-                startActivity(new Intent(getApplicationContext(),ContentActivity9.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity9.class));
                 finish();
                 break;
             case R.id.nav_Headings:
-                startActivity(new Intent(getApplicationContext(),ContentActivity10.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity10.class));
                 finish();
                 break;
             case R.id.nav_Paragraphs:
