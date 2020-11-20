@@ -19,6 +19,8 @@ import com.example.learnhtml.contentactivity.ContentActivity3;
 import com.example.learnhtml.contentactivity.ContentActivity4;
 import com.example.learnhtml.contentactivity.ContentActivity5;
 import com.example.learnhtml.contentactivity.ContentActivity6;
+import com.example.learnhtml.contentactivity.ContentActivity7;
+import com.example.learnhtml.contentactivity.ContentActivity8;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity {
@@ -99,11 +101,11 @@ public class MainActivity extends AppCompatActivity {
                 finish();
                 break;
             case R.id.nav_Responsive:
-                startActivity(new Intent(getApplicationContext(),ContentActivity7.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity7.class));
                 finish();
                 break;
             case R.id.nav_centered:
-                startActivity(new Intent(getApplicationContext(),ContentActivity8.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity8.class));
                 finish();
                 break;
             case R.id.nav_BasicExample:
