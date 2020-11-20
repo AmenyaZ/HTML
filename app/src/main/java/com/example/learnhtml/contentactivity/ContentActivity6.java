@@ -1,4 +1,4 @@
-package com.example.learnhtml.contentactivity;
+package com.example.learnhtml;
 
 import android.content.Intent;
 import android.os.Bundle;
