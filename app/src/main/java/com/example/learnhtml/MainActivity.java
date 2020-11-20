@@ -28,6 +28,7 @@ import com.example.learnhtml.contentactivity.ContentActivity2;
 import com.example.learnhtml.contentactivity.ContentActivity20;
 import com.example.learnhtml.contentactivity.ContentActivity21;
 import com.example.learnhtml.contentactivity.ContentActivity22;
+import com.example.learnhtml.contentactivity.ContentActivity23;
 import com.example.learnhtml.contentactivity.ContentActivity3;
 import com.example.learnhtml.contentactivity.ContentActivity4;
 import com.example.learnhtml.contentactivity.ContentActivity5;
@@ -179,7 +180,7 @@ public class MainActivity extends AppCompatActivity {
                 finish();
                 break;
             case R.id.nav_Forms:
-                startActivity(new Intent(getApplicationContext(),ContentActivity23.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity23.class));
                 finish();
                 break;
             case R.id.nav_FormLabels:
