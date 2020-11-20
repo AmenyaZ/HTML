@@ -19,6 +19,8 @@ import com.example.learnhtml.contentactivity.ContentActivity11;
 import com.example.learnhtml.contentactivity.ContentActivity12;
 import com.example.learnhtml.contentactivity.ContentActivity13;
 import com.example.learnhtml.contentactivity.ContentActivity14;
+import com.example.learnhtml.contentactivity.ContentActivity15;
+import com.example.learnhtml.contentactivity.ContentActivity16;
 import com.example.learnhtml.contentactivity.ContentActivity2;
 import com.example.learnhtml.contentactivity.ContentActivity3;
 import com.example.learnhtml.contentactivity.ContentActivity4;
@@ -139,11 +141,11 @@ public class MainActivity extends AppCompatActivity {
                 finish();
                 break;
             case R.id.nav_TextFormatting:
-                startActivity(new Intent(getApplicationContext(),ContentActivity15.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity15.class));
                 finish();
                 break;
             case R.id.nav_BlockLevel:
-                startActivity(new Intent(getApplicationContext(),ContentActivity16.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity16.class));
                 finish();
                 break;
             case R.id.nav_Sections:
