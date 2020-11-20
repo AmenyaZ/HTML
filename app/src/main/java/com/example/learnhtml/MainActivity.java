@@ -16,6 +16,7 @@ import com.example.learnhtml.contentactivity.ContentActivity;
 import com.example.learnhtml.contentactivity.ContentActivity1;
 import com.example.learnhtml.contentactivity.ContentActivity10;
 import com.example.learnhtml.contentactivity.ContentActivity11;
+import com.example.learnhtml.contentactivity.ContentActivity12;
 import com.example.learnhtml.contentactivity.ContentActivity2;
 import com.example.learnhtml.contentactivity.ContentActivity3;
 import com.example.learnhtml.contentactivity.ContentActivity4;
@@ -124,11 +125,12 @@ public class MainActivity extends AppCompatActivity {
                 finish();
                 break;
             case R.id.nav_Links:
-                startActivity(new Intent(getApplicationContext(),ContentActivity12.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity12.class));
                 finish();
                 break;
             case R.id.nav_LineBreak:
-                startActivity(new Intent(getApplicationContext(),ContentActivity13.class));
+                startActivity(new Intent(getApplicationContext(),ContentAc
+                        tivity13.class));
                 finish();
                 break;
             case R.id.nav_HorizontalRule:
