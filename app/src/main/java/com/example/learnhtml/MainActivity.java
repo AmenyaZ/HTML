@@ -23,6 +23,7 @@ import com.example.learnhtml.contentactivity.ContentActivity15;
 import com.example.learnhtml.contentactivity.ContentActivity16;
 import com.example.learnhtml.contentactivity.ContentActivity17;
 import com.example.learnhtml.contentactivity.ContentActivity18;
+import com.example.learnhtml.contentactivity.ContentActivity19;
 import com.example.learnhtml.contentactivity.ContentActivity2;
 import com.example.learnhtml.contentactivity.ContentActivity3;
 import com.example.learnhtml.contentactivity.ContentActivity4;
@@ -159,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
                 finish();
                 break;
             case R.id.nav_Tables:
-                startActivity(new Intent(getApplicationContext(),ContentActivity19.class));
+                startActivity(new Intent(getApplicationContext(), ContentActivity19.class));
                 finish();
                 break;
             case R.id.nav_Lists:
