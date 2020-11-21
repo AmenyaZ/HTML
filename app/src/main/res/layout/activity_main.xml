@@ -72,27 +72,27 @@ HTML is easy to learn - You will enjoy it!"
             <Button
                 android:id="@+id/button2"
                 android:layout_width="203dp"
-                android:layout_height="wrap_content"
+                android:layout_height="63dp"
                 android:text="Button" />
 
             <Button
                 android:id="@+id/button3"
-                android:layout_width="221dp"
-                android:layout_height="wrap_content"
+                android:layout_width="203dp"
+                android:layout_height="63dp"
                 android:layout_gravity="right"
                 android:text="Button" />
 
             <Button
                 android:id="@+id/button4"
-                android:layout_width="199dp"
-                android:layout_height="wrap_content"
+                android:layout_width="203dp"
+                android:layout_height="63dp"
                 android:layout_gravity="bottom|start"
                 android:text="Button" />
 
             <Button
                 android:id="@+id/button5"
-                android:layout_width="216dp"
-                android:layout_height="wrap_content"
+                android:layout_width="203dp"
+                android:layout_height="63dp"
                 android:layout_gravity="bottom|right"
                 android:text="Button" />
         </androidx.cardview.widget.CardView>
