@@ -31,6 +31,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="?attr/dialogCornerRadius"
+            android:layout_marginBottom="@dimen/cardview_default_elevation"
             android:fontFamily="sans-serif-black"
             android:text="@string/html_tutorial"
             android:textColor="#1B1A1A"
@@ -48,8 +50,10 @@
                 android:id="@+id/info_card_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:fontFamily="sans-serif-medium"
+                android:layout_marginTop="@dimen/cardview_default_elevation"
 
+                android:layout_marginBottom="@dimen/cardview_default_radius"
+                android:fontFamily="sans-serif-medium"
                 android:text="HTML is the standard markup language for Web pages.
 
 With HTML you can create your own Website.
@@ -67,12 +71,14 @@ HTML is easy to learn - You will enjoy it!"
             android:layout_width="450dp"
             android:layout_height="139dp"
             android:layout_gravity="center"
+            android:layout_marginTop="@dimen/cardview_default_elevation"
             app:cardCornerRadius="4dp">
 
             <Button
                 android:id="@+id/btn_learning"
                 android:layout_width="203dp"
                 android:layout_height="63dp"
+                android:layout_marginLeft="@dimen/activity_margin_medium"
                 android:text="Continue Learning" />
 
             <Button
@@ -80,6 +86,7 @@ HTML is easy to learn - You will enjoy it!"
                 android:layout_width="203dp"
                 android:layout_height="63dp"
                 android:layout_gravity="right"
+                android:layout_marginRight="@dimen/activity_margin_medium"
                 android:text="Join Community" />
 
             <Button
@@ -87,6 +94,7 @@ HTML is easy to learn - You will enjoy it!"
                 android:layout_width="203dp"
                 android:layout_height="63dp"
                 android:layout_gravity="bottom|start"
+                android:layout_marginLeft="@dimen/activity_margin_medium"
                 android:text="Report a Bug or Issue" />
 
             <Button
@@ -94,6 +102,7 @@ HTML is easy to learn - You will enjoy it!"
                 android:layout_width="203dp"
                 android:layout_height="63dp"
                 android:layout_gravity="bottom|right"
+                android:layout_marginRight="@dimen/activity_margin_medium"
                 android:text="Rate us" />
         </androidx.cardview.widget.CardView>
 
