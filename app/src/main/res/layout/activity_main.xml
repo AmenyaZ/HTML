@@ -38,7 +38,7 @@
             android:textStyle="bold" />
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/card_view"
+            android:id="@+id/cv_info"
             android:layout_width="450dp"
             android:layout_height="140dp"
             android:layout_gravity="center"
@@ -63,38 +63,38 @@ HTML is easy to learn - You will enjoy it!"
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/card_view"
+            android:id="@+id/cv_Buttons"
             android:layout_width="450dp"
             android:layout_height="139dp"
             android:layout_gravity="center"
             app:cardCornerRadius="4dp">
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btn_learning"
                 android:layout_width="203dp"
                 android:layout_height="63dp"
-                android:text="Button" />
+                android:text="Continue Learning" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/btn_community"
                 android:layout_width="203dp"
                 android:layout_height="63dp"
                 android:layout_gravity="right"
-                android:text="Button" />
+                android:text="Join Community" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btn_bug"
                 android:layout_width="203dp"
                 android:layout_height="63dp"
                 android:layout_gravity="bottom|start"
-                android:text="Button" />
+                android:text="Report a Bug or Issue" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/btn_rate"
                 android:layout_width="203dp"
                 android:layout_height="63dp"
                 android:layout_gravity="bottom|right"
-                android:text="Button" />
+                android:text="Rate us" />
         </androidx.cardview.widget.CardView>
 
 
