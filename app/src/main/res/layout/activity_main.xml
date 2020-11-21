@@ -16,11 +16,31 @@
         <include
             layout="@layout/header"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:background="#0C69BB" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="142dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/html5" />
+
+        <TextView
+            android:id="@+id/tv_tutorial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/html_tutorial"
+            android:textColor="#1B1A1A"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
 
 
     </LinearLayout>
+
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nvView"
         android:layout_width="wrap_content"
@@ -29,6 +49,8 @@
         android:background="@android:color/white"
         app:menu="@menu/nav_drawer"
         app:headerLayout="@layout/drawer_header"/>
+
+
 
 
 

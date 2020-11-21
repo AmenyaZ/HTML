@@ -10,4 +10,6 @@
     <string name="code_playground">Code Playground</string>
     <string name="drawer_open">Open Navigation Panel</string>
     <string name="drawer_close">Close Navigation Panel</string>
+    <string name="html_tutorial">HTML Tutorial</string>
+
 </resources>
