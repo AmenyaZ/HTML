@@ -48,7 +48,7 @@
                 android:id="@+id/info_card_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:fontFamily="@font/amethysta"
+                android:fontFamily="sans-serif-medium"
 
                 android:text="HTML is the standard markup language for Web pages.
 
@@ -60,6 +60,41 @@ HTML is easy to learn - You will enjoy it!"
                 android:textSize="24sp"
                 android:textStyle="italic" />
 
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="450dp"
+            android:layout_height="139dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="4dp">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="203dp"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="199dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|start"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="216dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:text="Button" />
         </androidx.cardview.widget.CardView>
 
 
