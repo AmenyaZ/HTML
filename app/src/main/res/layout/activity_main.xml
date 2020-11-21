@@ -22,7 +22,7 @@
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="142dp"
-            android:layout_height="74dp"
+            android:layout_height="94dp"
             android:layout_gravity="center"
             app:srcCompat="@drawable/html5" />
 
@@ -34,8 +34,33 @@
             android:fontFamily="sans-serif-black"
             android:text="@string/html_tutorial"
             android:textColor="#1B1A1A"
-            android:textSize="18sp"
+            android:textSize="27dp"
             android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="450dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="4dp">
+
+            <TextView
+                android:id="@+id/info_card_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/amethysta"
+
+                android:text="HTML is the standard markup language for Web pages.
+
+With HTML you can create your own Website.
+
+HTML is easy to learn - You will enjoy it!"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#121111"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+        </androidx.cardview.widget.CardView>
 
 
 
