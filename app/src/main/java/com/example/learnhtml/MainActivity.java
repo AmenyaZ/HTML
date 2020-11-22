@@ -11,6 +11,8 @@ import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 import com.example.learnhtml.contentactivity.ContentActivity;
 import com.example.learnhtml.contentactivity.ContentActivity1;
@@ -46,6 +48,10 @@ public class MainActivity extends AppCompatActivity {
     private DrawerLayout mDrawer;
     private Toolbar toolbar;
     private ActionBarDrawerToggle drawerToggle;
+    private Button Learning;
+    private Button Community;
+    private Button Rating;
+    private Button Bug;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,6 +65,21 @@ public class MainActivity extends AppCompatActivity {
         // Tie DrawerLayout events to the ActionBarToggle.
         drawerToggle = setupDrawerToggle();
         mDrawer.addDrawerListener(drawerToggle);
+
+        Learning =(Button)findViewById(R.id.btn_learning);
+        Community=(Button)findViewById(R.id.btn_community);
+        Rating =(Button)findViewById(R.id.btn_rate);
+        Bug =(Button)findViewById(R.id.btn_bug);
+
+
+        Learning.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent( MainActivity.this, MyLearningActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
         // Attach listener to drawer menuitems and handle user selections.
         NavigationView nvDrawer = (NavigationView) findViewById(R.id.nvView);
