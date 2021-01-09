@@ -13,6 +13,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RatingBar;
 
 import com.example.learnhtml.contentactivity.ContentActivity;
 import com.example.learnhtml.contentactivity.ContentActivity1;
@@ -80,6 +81,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Rating.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, RatingBar.class);
+                startActivity(intent);
+            }
+        });
 
         // Attach listener to drawer menuitems and handle user selections.
         NavigationView nvDrawer = (NavigationView) findViewById(R.id.nvView);

@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_learn_html"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MyLearningActivity"></activity>
+        <activity android:name=".rating.RatingBar"></activity>
+        <activity android:name=".MyLearningActivity" />
         <activity android:name=".ProgressActivity" />
         <activity android:name=".EditorActivity" />
         <activity android:name=".contentactivity.ContentActivity" />
