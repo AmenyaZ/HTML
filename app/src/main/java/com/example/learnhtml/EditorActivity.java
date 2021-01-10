@@ -31,7 +31,7 @@ public class EditorActivity extends AppCompatActivity {
             }
         });
 
-        WebView myWebView = (WebView) findViewById(R.id.webviewEditor);
+        WebView myWebView = findViewById(R.id.webviewEditor);
         String contentAsset ="https://html5-editor.net";
         myWebView.loadUrl(contentAsset);
         myWebView.getSettings().setJavaScriptEnabled(true);

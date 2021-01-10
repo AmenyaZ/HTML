@@ -27,7 +27,7 @@ public class ContentActivity12 extends AppCompatActivity {
                 finish();
             }
         });
-        WebView myWebView = (WebView) findViewById(R.id.webview12);
+        WebView myWebView = findViewById(R.id.webview12);
         String contentAsset ="file:///android_asset/HTML_Horizontal_Rule.html";
         myWebView.loadUrl(contentAsset);
         myWebView.getSettings().setJavaScriptEnabled(true);

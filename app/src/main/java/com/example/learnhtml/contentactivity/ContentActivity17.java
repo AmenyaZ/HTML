@@ -27,7 +27,7 @@ public class ContentActivity17 extends AppCompatActivity {
                 finish();
             }
         });
-        WebView myWebView = (WebView) findViewById(R.id.webview17);
+        WebView myWebView = findViewById(R.id.webview17);
         String contentAsset ="file:///android_asset/HTML_Line_Break.html";
         myWebView.loadUrl(contentAsset);
         myWebView.getSettings().setJavaScriptEnabled(true);

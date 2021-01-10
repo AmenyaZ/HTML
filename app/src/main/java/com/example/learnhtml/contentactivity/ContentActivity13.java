@@ -27,7 +27,7 @@ public class ContentActivity13 extends AppCompatActivity {
                 finish();
             }
         });
-        WebView myWebView = (WebView) findViewById(R.id.webview13);
+        WebView myWebView = findViewById(R.id.webview13);
         String contentAsset ="file:///android_asset/HTML_Images.html";
         myWebView.loadUrl(contentAsset);
         myWebView.getSettings().setJavaScriptEnabled(true);

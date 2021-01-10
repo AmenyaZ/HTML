@@ -27,7 +27,7 @@ public class ContentActivity4 extends AppCompatActivity {
                 finish();
             }
         });
-        WebView myWebView = (WebView) findViewById(R.id.webview4);
+        WebView myWebView = findViewById(R.id.webview4);
         String contentAsset ="file:///android_asset/HTML_Colors.html";
         myWebView.loadUrl(contentAsset);
         myWebView.getSettings().setJavaScriptEnabled(true);

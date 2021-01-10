@@ -27,7 +27,7 @@ public class ContentActivity10 extends AppCompatActivity {
                 finish();
             }
         });
-        WebView myWebView = (WebView) findViewById(R.id.webview10);
+        WebView myWebView = findViewById(R.id.webview10);
         String contentAsset ="file:///android_asset/HTML_Forms.html";
         myWebView.loadUrl(contentAsset);
         myWebView.getSettings().setJavaScriptEnabled(true);

@@ -27,7 +27,7 @@ public class ContentActivity9 extends AppCompatActivity {
                 finish();
             }
         });
-        WebView myWebView = (WebView) findViewById(R.id.webview9);
+        WebView myWebView = findViewById(R.id.webview9);
         String contentAsset ="file:///android_asset/HTML_Form_Labels.html";
         myWebView.loadUrl(contentAsset);
         myWebView.getSettings().setJavaScriptEnabled(true);

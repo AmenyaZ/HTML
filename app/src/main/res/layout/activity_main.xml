@@ -17,9 +17,8 @@
             layout="@layout/header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#0C69BB" />
+            android:background="#A4C639" />
 
-        <ImageView
             android:id="@+id/imageView3"
             android:layout_width="142dp"
             android:layout_height="94dp"
@@ -28,13 +27,13 @@
 
         <TextView
             android:id="@+id/tv_tutorial"
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="?attr/dialogCornerRadius"
             android:layout_marginBottom="@dimen/cardview_default_elevation"
             android:fontFamily="sans-serif-black"
-            android:text="@string/html_tutorial"
+            android:text="Let's get stared"
             android:textColor="#1B1A1A"
             android:textSize="27dp"
             android:textStyle="bold" />

@@ -58,19 +58,19 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_baseline_menu_24);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        mDrawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        mDrawer = findViewById(R.id.drawer_layout);
         // Tie DrawerLayout events to the ActionBarToggle.
         drawerToggle = setupDrawerToggle();
         mDrawer.addDrawerListener(drawerToggle);
 
-        Learning =(Button)findViewById(R.id.btn_learning);
-        Community=(Button)findViewById(R.id.btn_community);
-        Rating =(Button)findViewById(R.id.btn_rate);
-        Bug =(Button)findViewById(R.id.btn_bug);
+        Learning = findViewById(R.id.btn_learning);
+        Community= findViewById(R.id.btn_community);
+        Rating = findViewById(R.id.btn_rate);
+        Bug = findViewById(R.id.btn_bug);
 
 
         Learning.setOnClickListener(new View.OnClickListener() {
@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Attach listener to drawer menuitems and handle user selections.
-        NavigationView nvDrawer = (NavigationView) findViewById(R.id.nvView);
+        NavigationView nvDrawer = findViewById(R.id.nvView);
         //View drawerHeader = nvDrawer.inflateHeaderView(R.layout.drawer_header);
         setupDrawerContent(nvDrawer);
     }

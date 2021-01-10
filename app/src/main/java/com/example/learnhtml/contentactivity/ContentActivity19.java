@@ -27,7 +27,7 @@ public class ContentActivity19 extends AppCompatActivity {
                 finish();
             }
         });
-        WebView myWebView = (WebView) findViewById(R.id.webview19);
+        WebView myWebView = findViewById(R.id.webview19);
         String contentAsset ="file:///android_asset/HTML_Lists.html";
         myWebView.loadUrl(contentAsset);
         myWebView.getSettings().setJavaScriptEnabled(true);
